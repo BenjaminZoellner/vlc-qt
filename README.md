@@ -12,6 +12,10 @@ media playback and also some GUI classes for faster media player development.
 VLC-Qt runs on supported versions of Linux, macOS and Windows. It is developed
 in cross-platform spirit so it may work on other systems but is not supported.
 
+## VLC-Qt 1.1 Qt/VLC with Qt 5.9.5
+You just have to build it with Qt 5.9.5 according to [this](BUILDING.md).
+**VLC has to be installed, or you would get this Error "VLC-Qt Error: libvlc failed to load!" at runtime followed by a segmentation fault.**
+
 ## VLC-Qt 1.1 Qt/VLC versions deprecation warning
 **Since 1.1 release, support for some older Qt and VLC versions will be removed
 or deprecated:**
